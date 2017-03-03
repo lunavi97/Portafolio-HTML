@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box; /* Mantener ancho fijo, aunque se ingrese padding o border */
+}
+
+.lateral {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 350px;
+    padding: 1em;
+    background-color: #56B3AB
+}
+
+/* Perfil */
+
+.perfil__circulo {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    overflow: hidden; /* Ocultar lo que sobresalga */
+    margin: 0;
+}
+
+.perfil__foto {
+    width: 100%;
+}
+
+.perfil__nombres {
+    color: #FFF;
+    font-size: 20px;
+    margin-left: .5em;
+    width: 250px;
+}
+
+.perfil__nombres, .perfil__circulo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Información */
+
+.informacion {
+    color: #0F6A62;
+    position: absolute;
+    bottom: 1em;
+}
+
+.informacion__titulo {
+    font-size: 18px;
+}
+
+
+/* Habilidades */
+.habilidades {
+    padding: 0;
+}
+
+.habilidad {
+    background-color: #0F6A62;
+    color: #FFF;
+    font-size: 12px;
+    display: inline-block;
+    padding: .5em;
+    text-transform: uppercase; /* Pasar a mayúsculas el texto */
+    margin-bottom: .5em;
+}
