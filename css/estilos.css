@@ -2,6 +2,10 @@
     box-sizing: border-box; /* Mantener ancho fijo, aunque se ingrese padding o border */
 }
 
+html {
+    font-family: 'Lato', sans-serif;
+}
+
 .lateral {
     position: fixed;
     top: 0;
@@ -65,3 +69,41 @@
     text-transform: uppercase; /* Pasar a mayúsculas el texto */
     margin-bottom: .5em;
 }
+
+.habilidad--proyecto {
+    background-color: #29597C;
+    color: #FFF;
+    font-size: 12px;
+    display: inline-block;
+    padding: .5em;
+    text-transform: uppercase; /* Pasar a mayúsculas el texto */
+    margin-bottom: .5em;
+}
+
+/* Proyectos */
+
+.proyectos {
+    margin-left: 350px;
+    padding: 1em;
+    display: table; /* Alinear elementos como si fueran una tabla */
+}
+
+.proyecto {
+    display: table-cell;
+    padding: 1em;
+    width: 50%;
+}
+
+.proyecto__imagen {
+    width: 100%;
+}
+
+.proyecto__descripcion {
+    color: #797D7F;
+}
+
+.proyecto__titulo {
+    color: #29597C;
+    font-size: 18px;
+}
+
