@@ -16,6 +16,11 @@ html {
     background-color: #56B3AB
 }
 
+.portafolio {
+    text-align: center;
+    color: #0F6A62;
+}
+
 /* Perfil */
 
 .perfil__circulo {
